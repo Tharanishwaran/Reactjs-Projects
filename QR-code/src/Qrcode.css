@@ -1,5 +1,93 @@
 *{
 
-color: blue;
+color: rgb(2, 114, 2);
+font-family: sans-serif;
+background-color: rgb(226, 142, 247);
+
+}
+
+.app-container{
+
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.qr-image{
+
+
+    height: fit-content;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+
+}
+
+
+.input-label {
+
+
+display: block;
+margin-bottom: 8px;
+color: rgb(80, 0, 209);
+font-size: 20px;
+font-weight: 500;
+
+
+}
+
+input[type="text"]{
+
+padding: 12px;
+margin-bottom: 20px;
+width: 100%;
+font-size: 16px;
+border:2px solid salmon;
+border-radius: 5px;
+
+}
+
+button{
+
+
+padding: 15px 20px;
+font-size: 18px;
+color:rgb(245, 241, 237);
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+
+
+
+}
+
+.generateb {
+
+    background-color: rgb(0, 80, 155);
+
+}
+
+.generateb:disabled{
+ 
+    background-color: aliceblue;
+    cursor: not-allowed;
+
+}
+
+.downloadb{
+
+ background-color: rgb(190, 19, 19);
+ margin-left: 10px;
+
+
+}
+
+.downloadb:hover{
+
+
+  background-color: rgb(209, 59, 59);
 
 }
