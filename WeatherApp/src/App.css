@@ -1,0 +1,68 @@
+*{
+
+/* background-color: rgb(48, 144, 207); */
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+body{
+
+
+margin: 0;
+padding: 0;
+background-color: rgb(7, 79, 128);
+width : 100vw;
+height: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container{
+
+width: 350px;
+padding: 20px;
+background-color: aliceblue;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgb(0, 253, 105);
+
+
+}
+
+.input-container{
+
+width: 100%;
+display: flex;
+align-items: center;
+border: 2px solid lightseagreen;
+border-radius: 10px;
+overflow: hidden;
+
+}
+
+.cityInput{
+
+flex: 1;
+height: 30px;
+border: none;
+font-size: 16px;
+outline: none;
+padding: 10px;
+
+}
+
+.search-icon{
+
+padding: 10px;
+height:30px;
+cursor: pointer;
+
+} 
+
+.search-icon img{
+
+ margin-top: 5px;
+
+}
